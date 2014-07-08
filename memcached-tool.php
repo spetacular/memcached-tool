@@ -13,7 +13,6 @@ Usage: path/to/php {$argv[0]} host:port [cmd] [option]
 	/usr/local/php/bin/php {$argv[0]} 127.0.0.1:11211 "stats sizes"		# shows sizes stats
 	/usr/local/php/bin/php {$argv[0]} 127.0.0.1:11211 "stats shows"		# shows sizes stats
 Support Cmd: stats,get,version. If This Tool doesn't terminate automatically, Press Ctrl + C to kill it.
-
 EOT;
     die($diemsg);
 }
