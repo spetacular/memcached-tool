@@ -16,6 +16,7 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
 
 # Example
 >$php memcached-tool.php 127.0.0.1:11211 "version"
+
     +---------+-------+ 
     | Field   | Value | 
     +---------+-------+ 
@@ -23,6 +24,7 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
     +---------+-------+ 
 
 >$php memcached-tool.php 127.0.0.1:11211 "stats " 
+
     +------+-----------------------+-------------+
     | Type | Field                 | Value       |
     +------+-----------------------+-------------+
