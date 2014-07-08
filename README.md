@@ -15,12 +15,12 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
         /usr/local/php/bin/php memcached-tool.php 127.0.0.1:11211 "stats shows"         # shows sizes stats
 
 # Example
- #php memcached-tool.php 127.0.0.1:11211 "version"
+``#php memcached-tool.php 127.0.0.1:11211 "version"
 +---------+-------+
 | Field   | Value |
 +---------+-------+
 | VERSION | 1.2.8 |
-+---------+-------+
++---------+-------+``
 
 # php memcached-tool.php 127.0.0.1:11211 "stats " 
 +------+-----------------------+-------------+
