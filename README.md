@@ -15,14 +15,14 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
         /usr/local/php/bin/php memcached-tool.php 127.0.0.1:11211 "stats shows"         # shows sizes stats
 
 # Example
->#php memcached-tool.php 127.0.0.1:11211 "version"
+>$php memcached-tool.php 127.0.0.1:11211 "version"
     +---------+-------+
     | Field   | Value |
     +---------+-------+
     | VERSION | 1.2.8 |
     +---------+-------+``
 
->#php memcached-tool.php 127.0.0.1:11211 "stats " 
+>$php memcached-tool.php 127.0.0.1:11211 "stats " 
     +------+-----------------------+-------------+
     | Type | Field                 | Value       |
     +------+-----------------------+-------------+
@@ -31,3 +31,8 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
     | STAT | time                  | 1404810575  |
     | STAT | listen_disabled_num   | 0           |
     +------+-----------------------+-------------+
+
+# Thanks
+The pretty table is the awesome work of "Console Table".
+pear:http://pear.php.net/package/Console_Table/
+git:https://github.com/pear/Console_Table
