@@ -24,7 +24,7 @@ if (isset($argv[1])) {
     list($address, $service_port) = explode(':', $argv[1], 2);
 } else {
     $service_port = 11211;
-    $address = '172.27.206.224';
+    $address = '127.0.0.1';
 }
 //command
 if (isset($argv[2])) {
