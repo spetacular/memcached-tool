@@ -20,7 +20,7 @@ But we sometimes wish to use php tools to do this job. That's why I create memca
     | Field   | Value |
     +---------+-------+
     | VERSION | 1.2.8 |
-    +---------+-------+``
+    +---------+-------+
 
 >$php memcached-tool.php 127.0.0.1:11211 "stats " 
     +------+-----------------------+-------------+
